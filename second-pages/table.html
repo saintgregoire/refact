@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Таблиця змагань</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body  class="table-fon">
+  <header class="header">
+    <div class="container">
+      <ul class="header-list fs-20 text-align flex flex-center">
+        <li>
+          <a class="td-none white fw-bold roboto uppercase block" href="../index.html">home</a>
+        </li>
+        <li>
+          <a class="td-none white fw-bold roboto uppercase block" href="position.html">gallery</a>
+        </li>
+        <li class="relative">
+          <a class="td-none white fw-bold roboto uppercase block" href="#">homeworks</a>
+          <ul class="second-list disp-none">
+            <li class="bg-black">
+              <a class="td-none white montserrat uppercase block" href="table.html">table</a>
+            </li>
+            <li class="bg-black">
+              <a class="td-none white montserrat uppercase block" href="cards.html">inline-block</a>
+            </li>
+            <li class="bg-black">
+              <a class="td-none white montserrat uppercase block" href="layout.html">layout</a>
+            </li>
+            <li class="bg-black relative">
+              <a class="td-none white uppercase montserrat block" href="float.html">float</a>
+              <ul class="third-list disp-none">
+                <li class="bg-black">
+                  <a class="td-none white arch-dau uppercase block" href="flex.html">flex</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <div class="container text-align">
+    <table>
+      <caption class="fs-20 fw-bold uppercase">Таблиця змагань</caption>
+      <tbody>
+        <tr>
+          <td colspan="2" class="bg-grey">1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td rowspan="3" class="bg-green">5</td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="bg-darkgreen">7</td>
+          <td>8</td>
+          <td rowspan="2" colspan="3" class="bg-yellow">9</td>
+        </tr>
+        <tr>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td rowspan="2" colspan="3" class="bg-blue">19</td>
+          <td>20</td>
+          <td>21</td>
+          <td rowspan="2" class="bg-darkgreen">22</td>
+        </tr>
+        <tr>
+          <td colspan="2" class="bg-grey">25</td>
+        </tr>
+        <tr>
+          <td>Y</td>
+          <td colspan="2" class="bg-yellow">X</td>
+          <td colspan="3" class="bg-green">A</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</body>
+</html>
