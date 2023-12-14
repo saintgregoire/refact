@@ -669,3 +669,36 @@ div.how-container {
 margin-bottom: 0;
 }
 
+/* !FOOTER GENERAL */
+
+.footer-general {
+  background-image: linear-gradient(to right, black, darkgrey, grey, black);
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100px;
+}
+
+.footer-menu > li a {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+.facebook {
+  background: url("../img/facebook.svg") no-repeat center/cover;
+}
+
+.inst {
+  background: url("../img/instagram.svg") no-repeat center/cover;
+}
+.linkedin {
+  background: url("../img/linkedin.svg") no-repeat center/cover;
+}
+.telegram {
+  background: url("../img/telegram.svg") no-repeat center/cover;
+}
