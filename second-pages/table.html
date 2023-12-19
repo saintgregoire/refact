@@ -6,85 +6,119 @@
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body  class="table-fon">
-  <header class="header">
-    <div class="container">
-      <ul class="header-list fs-20 text-align flex flex-center fw-bold roboto uppercase">
-        <li class="">
-          <a class="menu-home td-none white block" href="../index.html">home</a>
-        </li>
-        <li>
-          <a class="menu-gal td-none white block" href="position.html">gallery</a>
-        </li>
-        <li class="relative">
-          <a class="menu-hw td-none white block" href="#">homeworks</a>
-          <ul class="second-list disp-none bg-black  montserrat uppercase">
-            <li>
-              <a class="td-none white block" href="table.html">table</a>
-            </li>
-            <li>
-              <a class="td-none white block" href="cards.html">inline-block</a>
-            </li>
-            <li>
-              <a class="td-none white block" href="layout.html">layout</a>
-            </li>
-            <li class="relative">
-              <a class="menu-float td-none white block" href="float.html">float</a>
-              <ul class="third-list disp-none">
-                <li class="bg-black arch-dau uppercase li-flex">
-                  <a class="hover-block td-none white block" href="flex.html">flex</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </header>
-  <div class="container text-align">
-    <table>
-      <caption class="fs-20 fw-bold uppercase">Таблиця змагань</caption>
-      <tbody>
-        <tr>
-          <td colspan="2" class="bg-grey">1</td>
-          <td>2</td>
-          <td>3</td>
-          <td>4</td>
-          <td rowspan="3" class="bg-green">5</td>
-        </tr>
-        <tr>
-          <td rowspan="2" class="bg-darkgreen">7</td>
-          <td>8</td>
-          <td rowspan="2" colspan="3" class="bg-yellow">9</td>
-        </tr>
-        <tr>
-          <td>13</td>
-        </tr>
-        <tr>
-          <td rowspan="2" colspan="3" class="bg-blue">19</td>
-          <td>20</td>
-          <td>21</td>
-          <td rowspan="2" class="bg-darkgreen">22</td>
-        </tr>
-        <tr>
-          <td colspan="2" class="bg-grey">25</td>
-        </tr>
-        <tr>
-          <td>Y</td>
-          <td colspan="2" class="bg-yellow">X</td>
-          <td colspan="3" class="bg-green">A</td>
-        </tr>
-      </tbody>
-    </table>
-
+  <div class="asside-menu">
+    <ul class="asside-list">
+      <li>
+        <a href="#">
+          <span>
+            <svg>
+              <use href="../img/sprite.svg#sad"></use>
+            </svg>
+          </span>One
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>
+            <svg>
+              <use href="../img/sprite.svg#medium"></use>
+            </svg>
+          </span>Two
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>
+            <svg>
+              <use href="../img/sprite.svg#smile"></use>
+            </svg>
+          </span>Three
+        </a>
+      </li>
+    </ul>
   </div>
-  <footer class="footer-general">
-    <div class="container">
-      <ul class="footer-menu">
-        <li><a class="facebook" href="#"></a></li>
-        <li><a class="inst" href="#"></a></li>
-        <li><a class="linkedin" href="#"></a></li>
-        <li><a class="telegram" href="#"></a></li>
-      </ul>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <ul class="header-list fs-20 text-align flex flex-center fw-bold roboto uppercase">
+          <li class="">
+            <a class="menu-home td-none white block" href="../index.html">home</a>
+          </li>
+          <li>
+            <a class="menu-gal td-none white block" href="position.html">gallery</a>
+          </li>
+          <li class="relative">
+            <a class="menu-hw td-none white block" href="#">homeworks</a>
+            <ul class="second-list bg-black  montserrat uppercase">
+              <li>
+                <a class="td-none white block" href="table.html">table</a>
+              </li>
+              <li>
+                <a class="td-none white block" href="cards.html">inline-block</a>
+              </li>
+              <li>
+                <a class="td-none white block" href="layout.html">layout</a>
+              </li>
+              <li class="relative">
+                <a class="menu-float td-none white block" href="float.html">float</a>
+                <ul class="third-list disp-none">
+                  <li class="bg-black arch-dau uppercase li-flex">
+                    <a class="hover-block td-none white block" href="flex.html">flex</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="container text-align">
+      <table>
+        <caption class="fs-20 fw-bold uppercase">Таблиця змагань</caption>
+        <tbody>
+          <tr>
+            <td colspan="2" class="bg-grey">1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td rowspan="3" class="bg-green">5</td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="bg-darkgreen">7</td>
+            <td>8</td>
+            <td rowspan="2" colspan="3" class="bg-yellow">9</td>
+          </tr>
+          <tr>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="3" class="bg-blue">19</td>
+            <td>20</td>
+            <td>21</td>
+            <td rowspan="2" class="bg-darkgreen">22</td>
+          </tr>
+          <tr>
+            <td colspan="2" class="bg-grey">25</td>
+          </tr>
+          <tr>
+            <td>Y</td>
+            <td colspan="2" class="bg-yellow">X</td>
+            <td colspan="3" class="bg-green">A</td>
+          </tr>
+        </tbody>
+      </table>
+  
     </div>
-  </footer> 
+    <footer class="footer-general">
+      <div class="container">
+        <ul class="footer-menu">
+          <li><a class="facebook" href="#"></a></li>
+          <li><a class="inst" href="#"></a></li>
+          <li><a class="linkedin" href="#"></a></li>
+          <li><a class="telegram" href="#"></a></li>
+        </ul>
+      </div>
+    </footer> 
+  </div>
+  <script> </script>
 </body>
 </html>

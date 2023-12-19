@@ -704,3 +704,71 @@ margin-bottom: 0;
 .telegram {
   background: url("../img/telegram.svg") no-repeat center/cover;
 }
+
+/* ? Asside Menu */
+
+.asside-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 11;
+  background: #4d4d4d;
+  width: 76px;
+  height: 100vh;
+  overflow: hidden;
+  height: 100vh;
+  padding-top: 80px;
+  transition: width .5s linear;
+  border-right: 2px solid grey;
+}
+
+.asside-list svg {
+  width: 40px;
+  height: 40px;
+  fill: #4d4d4d;
+  stroke: black;
+  transform: rotate(45deg);
+  transition: all .5s ease;
+}
+
+.asside-list a {
+  padding: 15px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.asside-list li {
+  margin-bottom: 3px;
+  background: mistyrose;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+}
+
+.asside-list span {
+  border: 2px solid black;
+  transform: rotate(-45deg);
+  padding: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.asside-list a:hover svg {
+  transform: rotate(45deg) scale(1.8);
+}
+
+.asside-menu:hover {
+  width:300px;
+}
+
+
+.wrapper {
+  padding-left: 76px;
+  transition: all .5s linear;
+}
+
+.asside-menu:hover + .wrapper {
+  padding-left: 300px;
+}

@@ -6,86 +6,120 @@
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <ul class="header-list fs-20 text-align flex flex-center fw-bold roboto uppercase">
-        <li class="">
-          <a class="menu-home td-none white block" href="../index.html">home</a>
-        </li>
-        <li>
-          <a class="menu-gal td-none white block" href="position.html">gallery</a>
-        </li>
-        <li class="relative">
-          <a class="menu-hw td-none white block" href="#">homeworks</a>
-          <ul class="second-list disp-none bg-black  montserrat uppercase">
-            <li>
-              <a class="td-none white block" href="table.html">table</a>
-            </li>
-            <li>
-              <a class="td-none white block" href="cards.html">inline-block</a>
-            </li>
-            <li>
-              <a class="td-none white block" href="layout.html">layout</a>
-            </li>
-            <li class="relative">
-              <a class="menu-float td-none white block" href="float.html">float</a>
-              <ul class="third-list disp-none">
-                <li class="bg-black arch-dau uppercase li-flex">
-                  <a class="hover-block td-none white block" href="flex.html">flex</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </header>
-  <main>
-    <section>
+  <div class="asside-menu">
+    <ul class="asside-list">
+      <li>
+        <a href="#">
+          <span>
+            <svg>
+              <use href="../img/sprite.svg#sad"></use>
+            </svg>
+          </span>One
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>
+            <svg>
+              <use href="../img/sprite.svg#medium"></use>
+            </svg>
+          </span>Two
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>
+            <svg>
+              <use href="../img/sprite.svg#smile"></use>
+            </svg>
+          </span>Three
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="wrapper">
+    <header class="header">
       <div class="container">
-
-        <div class="fs-0 bg-blue">
-          <div class="fs-20 inline-block h-400 w-400 bd-s-red">1</div>
-          <div class="fs-20 inline-block h-400 w-400 bd-s-red">2</div>
-          <div class="fs-20 inline-block h-400 w-400 bd-s-red">3</div>
-        </div>
-
-        <div class=" fs-0 bg-green">
-          <div class="inline-block vert-al-top">4
-            <div class="fs-20 bd-s-red w-800 h-200">X</div>
-            <div class="fs-20 bd-s-red w-800 h-200">Y</div>
+        <ul class="header-list fs-20 text-align flex flex-center fw-bold roboto uppercase">
+          <li class="">
+            <a class="menu-home td-none white block" href="../index.html">home</a>
+          </li>
+          <li>
+            <a class="menu-gal td-none white block" href="position.html">gallery</a>
+          </li>
+          <li class="relative">
+            <a class="menu-hw td-none white block" href="#">homeworks</a>
+            <ul class="second-list bg-black  montserrat uppercase">
+              <li>
+                <a class="td-none white block" href="table.html">table</a>
+              </li>
+              <li>
+                <a class="td-none white block" href="cards.html">inline-block</a>
+              </li>
+              <li>
+                <a class="td-none white block" href="layout.html">layout</a>
+              </li>
+              <li class="relative">
+                <a class="menu-float td-none white block" href="float.html">float</a>
+                <ul class="third-list disp-none">
+                  <li class="bg-black arch-dau uppercase li-flex">
+                    <a class="hover-block td-none white block" href="flex.html">flex</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+  
+          <div class="fs-0 bg-blue">
+            <div class="fs-20 inline-block h-400 w-400 bd-s-red">1</div>
+            <div class="fs-20 inline-block h-400 w-400 bd-s-red">2</div>
+            <div class="fs-20 inline-block h-400 w-400 bd-s-red">3</div>
           </div>
-      
-          <div class="inline-block vert-al-top">5
-            <div class="fs-20 bd-s-red w-400 h-133">A</div>
-            <div class="fs-20 bd-s-red w-400 h-133">B</div>
-            <div class="fs-20 bd-s-red w-400 h-133">C</div>
-          </div>
-
-          <div class="fs-0 bg-orange">
-            <div class="fs-20 w-400 bd-s-red bg-orange h-400 inline-block vert-al-top">6</div>
-            <div class="inline-block vert-al-top">7
-              <div class="fs-20 w-800 h-200 bd-s-red">E</div>
-              <div class="inline-block fs-20 bd-s-red h-200 w-400">F</div>
-              <div class="inline-block vert-al-top">G
-                <div class="fs-20 w-400 bd-s-red h-100">L</div>
-                <div class="fs-20 w-400 bd-s-red h-100">M</div>
+  
+          <div class=" fs-0 bg-green">
+            <div class="inline-block vert-al-top">4
+              <div class="fs-20 bd-s-red w-800 h-200">X</div>
+              <div class="fs-20 bd-s-red w-800 h-200">Y</div>
+            </div>
+        
+            <div class="inline-block vert-al-top">5
+              <div class="fs-20 bd-s-red w-400 h-133">A</div>
+              <div class="fs-20 bd-s-red w-400 h-133">B</div>
+              <div class="fs-20 bd-s-red w-400 h-133">C</div>
+            </div>
+  
+            <div class="fs-0 bg-orange">
+              <div class="fs-20 w-400 bd-s-red bg-orange h-400 inline-block vert-al-top">6</div>
+              <div class="inline-block vert-al-top">7
+                <div class="fs-20 w-800 h-200 bd-s-red">E</div>
+                <div class="inline-block fs-20 bd-s-red h-200 w-400">F</div>
+                <div class="inline-block vert-al-top">G
+                  <div class="fs-20 w-400 bd-s-red h-100">L</div>
+                  <div class="fs-20 w-400 bd-s-red h-100">M</div>
+                </div>
               </div>
             </div>
           </div>
+  
         </div>
-
+      </section>
+    </main>
+    <footer class="footer-general">
+      <div class="container">
+        <ul class="footer-menu">
+          <li><a class="facebook" href="#"></a></li>
+          <li><a class="inst" href="#"></a></li>
+          <li><a class="linkedin" href="#"></a></li>
+          <li><a class="telegram" href="#"></a></li>
+        </ul>
       </div>
-    </section>
-  </main>
-  <footer class="footer-general">
-    <div class="container">
-      <ul class="footer-menu">
-        <li><a class="facebook" href="#"></a></li>
-        <li><a class="inst" href="#"></a></li>
-        <li><a class="linkedin" href="#"></a></li>
-        <li><a class="telegram" href="#"></a></li>
-      </ul>
-    </div>
-  </footer> 
+    </footer> 
+  </div>
+  <script> </script>
 </body>
 </html>
