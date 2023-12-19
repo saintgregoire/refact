@@ -235,10 +235,12 @@ html {
   left: 0;
   z-index: 1;
   padding-top: 10px;
+  transform: translateY(-500%);
+  transition: transform .5s ease;
 }
 
 .header-list > :last-child:hover .second-list {
-  display: block;
+  transform: translateY(0);
 }
 
 .third-list li {
