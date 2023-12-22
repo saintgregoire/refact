@@ -8,7 +8,7 @@
 <body>
   <div class="wrapper-form">
     <div class="form-bg">
-      <form action="" target="_blank" method="get" name="form">
+      <form action="https://fom.in.ua/echo" target="_blank" method="post" name="form1">
         <div class="form-box">
           <div class="card-switch">
             <input id="switch" type="checkbox">
@@ -18,17 +18,63 @@
             </label>
           </div>
           <h1 class="title-form">Вход</h1>
-          <input class="text-field" type="email" placeholder="Введите E-mail">
-          <input class="text-field-two" type="password" placeholder="Пароль">
+          <input class="text-field" type="email" placeholder="Введите E-mail" name="email" required>
+          <input class="text-field-two" type="password" placeholder="Пароль" name="password" minlength="5" maxlength="15" required>
           <div class="checkbox">
-            <input id="check" type="checkbox">
+            <input id="check" type="checkbox" name="remember">
             <label for="check">Запомнить меня</label>
             <a href="#">Забыли пароль?</a>
           </div>
           <button class="enter">Войти</button>
+          <div class="regist-init">
+            <span class="question">Ещё нет аккаунта?</span>
+            <a class="registr" href="#">Зарегистрироваться</a>
+          </div>
+          <span class="social-media-enter">Или войдите через</span>
+          <ul class="sicial-media-box">
+            <li>
+              <a href="#">
+                <svg>
+                  <use href="#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg>
+                  <use href="#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg>
+                  <use href="#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </form>
     </div>
   </div>
+  <svg class="hidden" xmlns="http://www.w3.org/2000/svg">
+    <symbol viewBox="-143 145 512 512" id="linkedin">
+      <path d="M113 145c-141.4 0-256 114.6-256 256s114.6 256 256 256 256-114.6 256-256-114.6-256-256-256zM41.4 508.1H-8.5V348.4h49.9v159.7zM15.1 328.4h-.4c-18.1 0-29.8-12.2-29.8-27.7 0-15.8 12.1-27.7 30.5-27.7s29.7 11.9 30.1 27.7c.1 15.4-11.6 27.7-30.4 27.7zM241 508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4-14.9 0-23.2 10-27 19.6-1.4 3.4-1.2 8.2-1.2 13.1v86.3H71.8s.7-146.4 0-159.7h56.1v25.1c3.3-11 21.2-26.6 49.8-26.6 35.5 0 63.3 23 63.3 72.4v88.8z"/>
+    </symbol>
+  
+    <symbol viewBox="-143 145 512 512" id="facebook">
+      <path d="M113 145c-141.4 0-256 114.6-256 256s114.6 256 256 256 256-114.6 256-256-114.6-256-256-256zm56.5 212.6-2.9 38.3h-39.3v133H77.7v-133H51.2v-38.3h26.5v-25.7c0-11.3.3-28.8 8.5-39.7 8.7-11.5 20.6-19.3 41.1-19.3 33.4 0 47.4 4.8 47.4 4.8l-6.6 39.2s-11-3.2-21.3-3.2-19.5 3.7-19.5 14v29.9h42.2z"/>
+    </symbol>
+
+    <symbol viewBox="-271 273 256 256" id="instagram">
+      <path d="M-64.5,273h-157c-27.3,0-49.5,22.2-49.5,49.5v52.3v104.8c0,27.3,22.2,49.5,49.5,49.5h157c27.3,0,49.5-22.2,49.5-49.5V374.7
+	v-52.3C-15.1,295.2-37.3,273-64.5,273z M-50.3,302.5h5.7v5.6v37.8l-43.3,0.1l-0.1-43.4L-50.3,302.5z M-179.6,374.7
+	c8.2-11.3,21.5-18.8,36.5-18.8s28.3,7.4,36.5,18.8c5.4,7.4,8.5,16.5,8.5,26.3c0,24.8-20.2,45.1-45.1,45.1s-44.9-20.3-44.9-45.1
+	C-188.1,391.2-184.9,382.1-179.6,374.7z M-40,479.5C-40,493-51,504-64.5,504h-157c-13.5,0-24.5-11-24.5-24.5V374.7h38.2
+	c-3.3,8.1-5.2,17-5.2,26.3c0,38.6,31.4,70,70,70c38.6,0,70-31.4,70-70c0-9.3-1.9-18.2-5.2-26.3H-40V479.5z"/>
+    </symbol>
+  </svg>
+  <script> </script>
 </body>
 </html>
